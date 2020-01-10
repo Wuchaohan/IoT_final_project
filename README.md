@@ -56,7 +56,7 @@ If you want to know more about cv2 packages and attributes. Please refer to the 
 [Python影像辨識筆記(三)：Open CV操作筆記](https://medium.com/@yanweiliu/python影像辨識筆記-三-open-cv操作筆記-1eab0b95339c)
 
 ### Step 4 : Block the detected face
-		      if count < 5:
+	if count < 5:
             cv2.rectangle(img,(x,y),(x+w,y+h),(0,255,0),2)
             roi_gray = gray[y:y+h, x:x+w]
             roi_color = img[y:y+h, x:x+w]
