@@ -2,7 +2,8 @@
 
 Taking attendance in class by manual is a conventional way to know the students' attendance level. It may be time-consuming to take attendance. Also, teacher may make mistake to write down an inaccurate data. Nowadays, face detection becomes the trend and is applied to many applications. For me, I wanna to use this 
 technology on taking attendance by ueing python API OpenCV-OpenVINO in Raspberry pi.
-
+## Demo
+https://www.youtube.com/watch?v=VupJrFMl-gg
 ## Required items
 * Raspberry pi 3 (Model B)
 * Raspberry pi Power supply
@@ -85,4 +86,5 @@ we call lineNotifyMessage function via inputing three parameters:
 * picture2
 ###Reference documents:
 [Real-time Face Recognition: an End-to-end Project](https://www.instructables.com/id/Real-time-Face-Recognition-an-End-to-end-Project/)
+
 [使用 Python 實作發送 LINE Notify 訊息](https://bustlec.github.io/note/2018/07/10/line-notify-using-python/)
