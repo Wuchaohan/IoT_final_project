@@ -4,6 +4,7 @@ Taking attendance in class by manual is a conventional way to know the students'
 technology on taking attendance by ueing python API OpenCV-OpenVINO in Raspberry pi.
 ## Demo
 https://www.youtube.com/watch?v=VupJrFMl-gg
+
 ## Required items
 * Raspberry pi 3 (Model B)
 * Raspberry pi Power supply
@@ -14,8 +15,10 @@ https://www.youtube.com/watch?v=VupJrFMl-gg
 ## Component Make-Up
 
 <img src="S__15433732.jpg" width="50%" height="50%" /> <img src="S__15433733.jpg" width="50%" height="50%" />
-<img src="A81061BA-8D74-4A50-B1DD-A6445A15BD99.jpg width="50%" height="50%" /> <img src="29D8486A-204F-401C-8EBC-A6D3EE46E3EA.jpg" width="50%" height="50%" />
-<img src="362066A2-0943-4A04-81B9-3CA4D5649E30.jpg" width="50%" height="50%" /> <img src="120FD173-5A34-4E5E-A307-0E9FC7ACBC14.jpg" width="50%" height="50%" />
+<img src="A81061BA-8D74-4A50-B1DD-A6445A15BD99.jpg width="50%" height="50%" /> 
+<img src="29D8486A-204F-401C-8EBC-A6D3EE46E3EA.jpg" width="50%" height="50%" />
+<img src="362066A2-0943-4A04-81B9-3CA4D5649E30.jpg" width="50%" height="50%" /> 
+<img src="120FD173-5A34-4E5E-A307-0E9FC7ACBC14.jpg" width="50%" height="50%" />
 
 
 
@@ -86,7 +89,9 @@ we call lineNotifyMessage function via inputing three parameters:
 * token()
 * picture1
 * picture2
+
 ###Reference documents:
+
 [Real-time Face Recognition: an End-to-end Project](https://www.instructables.com/id/Real-time-Face-Recognition-an-End-to-end-Project/)
 
 [使用 Python 實作發送 LINE Notify 訊息](https://bustlec.github.io/note/2018/07/10/line-notify-using-python/)
