@@ -12,7 +12,9 @@ technology on taking attendance by ueing python API OpenCV-OpenVINO in Raspberry
 
 ## Component Make-Up
 
-k
+![1](S__15433730.jpg)
+![2](S__15433732.jpg)
+![3](S__15433733.jpg)
 
 ## Raspberry Pi Environment Setting
 
