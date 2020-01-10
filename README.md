@@ -1,4 +1,4 @@
-# IoT final project: Face Detection on taking attendance
+# IoT Final Project : Face Detection on taking attendance
 
 Taking attendance in class by manual is a conventional way to know the students' attendance level. It may be time-consuming to take attendance. Also, teacher may make mistake to write down an inaccurate data. Nowadays, face detection becomes the trend and is applied to many applications. For me, I wanna to use this 
 technology on taking attendance by ueing python API OpenCV-OpenVINO in Raspberry pi.
@@ -31,12 +31,12 @@ k
 
 In my project, there are two python files and three xml files in *FaceRecognition* folder. Let's analysis how to code works.
 
-### Step 1: Import the packages
+### Step 1 : Import the packages
 `import cv2`	
 `from lineNotifyMessage import lineNotifyMessage`
 
 Import cv2 API and lineNotifyMessage from lineNotifyMessage.py
-### Step 2: Set camera
+### Step 2 : Set camera
 	faceCascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
 	 
 	cap = cv2.VideoCapture(0) #get the camera
@@ -48,7 +48,7 @@ Import cv2 API and lineNotifyMessage from lineNotifyMessage.py
 	count = 0 #count
 
 Use the trained model haarcascade_frontalface_default.xml to detect people face.
-### Step 3: Start to detect faces
+### Step 3 : Start to detect faces
 
 Use while loop to detect faces continually.
 If you want to know more about cv2 packages and attributes. Please refer to the tutorial below.
@@ -56,13 +56,28 @@ If you want to know more about cv2 packages and attributes. Please refer to the 
 [Python影像辨識筆記(三)：Open CV操作筆記](https://medium.com/@yanweiliu/python影像辨識筆記-三-open-cv操作筆記-1eab0b95339c)
 
 ### Step 4 : Block the detected face
-	if count < 5:
+		if count < 5:
             cv2.rectangle(img,(x,y),(x+w,y+h),(0,255,0),2)
             roi_gray = gray[y:y+h, x:x+w]
             roi_color = img[y:y+h, x:x+w]
         
-    if count >= 5:
+        if count >= 5:
             cv2.rectangle(img,(x,y),(x+w,y+h),(0,0,255),2)
             roi_gray = gray[y:y+h, x:x+w]
             roi_color = img[y:y+h, x:x+w]
 
+We do the if statement. If count<5, show green rectangle. If count<5, show red rectangle to indicate that the face are detected and LINE notify was sent. 
+### Step 5 : Send LINE notify
+	# send a notify to LINE
+	token = 'w5uwWcnzXeopwb0OLoDuwnX4XB2g1v0cQ3xWvCDSsC1'
+	picURI1 = 'face.jpg'
+	picURI2 = 'body.jpg'
+
+	lineNotifyMessage(token,picURI1,picURI2)
+	
+
+we call lineNotifyMessage function via inputing three parameters: 
+
+* token()
+* picture1
+* picture2
