@@ -83,3 +83,6 @@ we call lineNotifyMessage function via inputing three parameters:
 * token()
 * picture1
 * picture2
+###Reference documents:
+[Real-time Face Recognition: an End-to-end Project](https://www.instructables.com/id/Real-time-Face-Recognition-an-End-to-end-Project/)
+[使用 Python 實作發送 LINE Notify 訊息](https://bustlec.github.io/note/2018/07/10/line-notify-using-python/)
