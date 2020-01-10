@@ -83,11 +83,11 @@ We do the if statement. If count<5, show green rectangle. If count<5, show red r
 	lineNotifyMessage(token,picURI1,picURI2)
 	
 
-we call lineNotifyMessage function via inputing three parameters: 
+we call lineNotifyMessage function via inputing there three parameters: 
 
-* token()
-* picture1
-* picture2
+* token() : a special connected with your LINE account
+* picture1 : the picture of your face
+* picture2 : the picture of your 
 
 ### Reference documents :
 
