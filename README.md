@@ -38,8 +38,9 @@ https://www.youtube.com/watch?v=VupJrFMl-gg
 In my project, there are two python files and three xml files in *FaceRecognition* folder. Let's analysis how to code works.
 
 ### Step 1 : Import the packages
-`import cv2`	
-`from lineNotifyMessage import lineNotifyMessage`
+
+	import cv2
+	from lineNotifyMessage import lineNotifyMessage
 
 Import cv2 API and lineNotifyMessage from lineNotifyMessage.py
 ### Step 2 : Set camera
