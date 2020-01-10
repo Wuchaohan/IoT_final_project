@@ -61,7 +61,7 @@ If you want to know more about cv2 packages and attributes. Please refer to the 
             roi_gray = gray[y:y+h, x:x+w]
             roi_color = img[y:y+h, x:x+w]
         
-     if count >= 5:
+    if count >= 5:
             cv2.rectangle(img,(x,y),(x+w,y+h),(0,0,255),2)
             roi_gray = gray[y:y+h, x:x+w]
             roi_color = img[y:y+h, x:x+w]
