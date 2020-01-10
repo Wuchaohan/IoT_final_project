@@ -15,8 +15,8 @@ https://www.youtube.com/watch?v=VupJrFMl-gg
 ## Component Make-Up
 
 <img src="S__15433732.jpg" width="49%" height="49%" /> <img src="S__15433733.jpg" width="49%" height="49%" />
-<img src="A81061BA-8D74-4A50-B1DD-A6445A15BD99.jpg" width="49%" height="49%" style="transform:rotate(270deg);"/> <img src="CE992D52-BB3F-439B-A939-2A77BCB6B454.jpg" width="49%" height="49%" style="transform:rotate(90deg);"/>
-<img src="362066A2-0943-4A04-81B9-3CA4D5649E30.jpg" width="49%" height="49%" style="transform:rotate(90deg);"/> <img src="120FD173-5A34-4E5E-A307-0E9FC7ACBC14.jpg" width="49%" height="49%" style="transform:rotate(90deg);"/>
+<img src="1.png" width="49%" height="49%" /> <img src="2.png" width="49%" height="49%" />
+<img src="3.png" width="49%" height="49%" /> <img src="4.png" width="49%" height="49%" />
 
 
 
