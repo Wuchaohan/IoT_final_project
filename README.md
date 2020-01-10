@@ -29,5 +29,11 @@ k
 
 ## Programming
 
+In my project, there are two python files and three xml files in FaceRecognition folder. Let's analysis how to code works.
 
+### Step1: Import the packages
+
+`import cv2
+
+from lineNotifyMessage import lineNotifyMessage`
 
