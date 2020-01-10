@@ -29,11 +29,40 @@ k
 
 ## Programming
 
-In my project, there are two python files and three xml files in FaceRecognition folder. Let's analysis how to code works.
+In my project, there are two python files and three xml files in *FaceRecognition* folder. Let's analysis how to code works.
 
-### Step1: Import the packages
+### Step 1: Import the packages
+`import cv2`	
+`from lineNotifyMessage import lineNotifyMessage`
 
-`import cv2
+Import cv2 API and lineNotifyMessage from lineNotifyMessage.py
+### Step 2: Set camera
+	faceCascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
+	 
+	cap = cv2.VideoCapture(0) #get the camera
+	 
+	cap.set(3,960) # set Width
+	 
+	cap.set(4,720) # set Height
+	 
+	count = 0 #count
 
-from lineNotifyMessage import lineNotifyMessage`
+Use the trained model haarcascade_frontalface_default.xml to detect people face.
+### Step 3: Start to detect faces
+
+Use while loop to detect faces continually.
+If you want to know more about cv2 packages and attributes. Please refer to the tutorial below.
+
+[Python影像辨識筆記(三)：Open CV操作筆記](https://medium.com/@yanweiliu/python影像辨識筆記-三-open-cv操作筆記-1eab0b95339c)
+
+### Step 4 : Block the detected face
+		      if count < 5:
+            cv2.rectangle(img,(x,y),(x+w,y+h),(0,255,0),2)
+            roi_gray = gray[y:y+h, x:x+w]
+            roi_color = img[y:y+h, x:x+w]
+        
+        if count >= 5:
+            cv2.rectangle(img,(x,y),(x+w,y+h),(0,0,255),2)
+            roi_gray = gray[y:y+h, x:x+w]
+            roi_color = img[y:y+h, x:x+w]
 
