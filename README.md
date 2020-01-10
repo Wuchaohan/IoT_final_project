@@ -12,9 +12,7 @@ technology on taking attendance by ueing python API OpenCV-OpenVINO in Raspberry
 
 ## Component Make-Up
 
-<img src="S__15433732.jpg" width="50%" height="50%" />
-<img src="S__15433733.jpg" width="50%" height="50%" />
-<img src="S__15433730.jpg" width="50%" height="50%" />
+<img src="S__15433732.jpg" width="50%" height="50%" /><img src="S__15433733.jpg" width="50%" height="50%" />
 
 
 
