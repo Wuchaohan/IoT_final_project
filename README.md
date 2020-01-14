@@ -97,3 +97,5 @@ we call lineNotifyMessage function via inputing there three parameters:
 [使用 Python 實作發送 LINE Notify 訊息](https://bustlec.github.io/note/2018/07/10/line-notify-using-python/)
 
 [透過 Python 發 Line Notify 三部曲 - 發圖圖圖片](http://pythonorz.blogspot.com/2017/12/python-line-notify_18.html)
+
+[How to Use LINE Notify for send images](https://stackoverflow.com/questions/48380382/how-to-use-line-notify-for-send-images)
