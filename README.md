@@ -60,6 +60,7 @@ Use while loop to detect faces continually.
 If you want to know more about cv2 packages and attributes. Please refer to the tutorial below.
 
 [Python影像辨識筆記(三)：Open CV操作筆記](https://medium.com/@yanweiliu/python影像辨識筆記-三-open-cv操作筆記-1eab0b95339c)
+
 [opencv: cv2.flip 图像翻转](https://blog.csdn.net/JNingWei/article/details/78753607)
 
 ### Step 4 : Block the detected face
