@@ -60,6 +60,7 @@ Use while loop to detect faces continually.
 If you want to know more about cv2 packages and attributes. Please refer to the tutorial below.
 
 [Python影像辨識筆記(三)：Open CV操作筆記](https://medium.com/@yanweiliu/python影像辨識筆記-三-open-cv操作筆記-1eab0b95339c)
+[opencv: cv2.flip 图像翻转](https://blog.csdn.net/JNingWei/article/details/78753607)
 
 ### Step 4 : Block the detected face
 		if count < 5:
@@ -93,3 +94,5 @@ we call lineNotifyMessage function via inputing there three parameters:
 [Real-time Face Recognition: an End-to-end Project](https://www.instructables.com/id/Real-time-Face-Recognition-an-End-to-end-Project/)
 
 [使用 Python 實作發送 LINE Notify 訊息](https://bustlec.github.io/note/2018/07/10/line-notify-using-python/)
+
+[透過 Python 發 Line Notify 三部曲 - 發圖圖圖片](http://pythonorz.blogspot.com/2017/12/python-line-notify_18.html)
