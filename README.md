@@ -1,7 +1,6 @@
 # IoT Final Project : Face Detection on taking attendance
 
-Taking attendance in class by manual is a conventional way to know the students' attendance level. It may be time-consuming to take attendance. Also, teacher may make mistake to write down an inaccurate data. Nowadays, face detection becomes the trend and is applied to many applications. For me, I wanna to use this 
-technology on taking attendance by ueing python API OpenCV-OpenVINO in Raspberry pi.
+Taking attendance in class by manual is a conventional way to know the students' attendance level. It may be time-consuming to take attendance. Also, teacher may make mistake to write down an inaccurate data. Nowadays, face detection becomes the trend and is applied in many applications. For me, I want to use this technology on taking attendance by ueing python API OpenCV-OpenVINO in Raspberry pi.
 ## Demo
 https://www.youtube.com/watch?v=VupJrFMl-gg
 
